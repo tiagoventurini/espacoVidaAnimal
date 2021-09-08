@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     position: relative;
     background-image: linear-gradient( to top, rgba(247, 247, 141, 0.918), rgba(255, 255, 111, 0.74) 10%, rgba(255, 255, 0, 0.8) 90% ), url(/img/patinhas.png) ;
@@ -12,8 +11,6 @@ body{
     background-position: center center;
     
 }
-
-
 .forma {
     background-color: #fb6f0088;
     position: absolute;
@@ -28,8 +25,6 @@ body{
     text-align: center;
      
 }
-
-
 .instagram{
     opacity: 1.0;
     transition-duration: 0.5s, 0.5s, 1s, 0s;
@@ -46,14 +41,11 @@ body{
 .whats:hover{
     opacity: 0.7;
     transform: scale(1.1);
-    transition-duration: 0.5s, 0.5s, 0.5s, 0s;
-    
+    transition-duration: 0.5s, 0.5s, 0.5s, 0s;   
 }
-
 .texto{
     background-image: linear-gradient( to top, rgba(240, 200, 20, 0.192) 5%, rgba(255, 209, 111, 0.425) 10%, rgb(250, 142, 2) 90% ) ;
-    
-    
+      
 }
 
 /*------    DISPOSITIVOS MOVEIS -------------------  */
@@ -94,8 +86,7 @@ body{
     }
    p{
        font-size: 10px;
-       
-       
+         
    }
    .texto{
     text-align: center;
