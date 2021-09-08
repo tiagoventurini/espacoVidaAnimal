@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-image: linear-gradient( to top, rgba(247, 247, 141, 0.918), rgba(255, 255, 111, 0.74) 10%, rgba(255, 255, 0, 0.8) 90% ), url(/img/patinhas.png) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+.forma {
+    background-color: #fb6f0088;
+    position: absolute;
+    border-radius: 40px; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 5px rgb(110, 110, 110, 0.5);
+
+}
+.centralizar{
+    text-align: center;
+     
+}
+
+
+.instagram{
+    opacity: 1.0;
+    transition-duration: 0.5s, 0.5s, 1s, 0s;
+}
+.instagram:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition-duration: 0.5s, 0.5s, 0.5s, 0s;
+}
+.whats{
+    opacity: 1;
+    transition-duration: 0.5s, 0.5s, 1s, 0s;
+}
+.whats:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition-duration: 0.5s, 0.5s, 0.5s, 0s;
+    
+}
+
+.texto{
+    background-image: linear-gradient( to top, rgba(240, 200, 20, 0.192) 5%, rgba(255, 209, 111, 0.425) 10%, rgb(250, 142, 2) 90% ) ;
+    
+    
+}
+
+/*------    DISPOSITIVOS MOVEIS -------------------  */
+@media only screen and (max-width: 320px) {
+    body { 
+        margin-top: 0;
+        height: 100vh;
+       font-size: 20%;
+    }
+    .forma{
+        margin-top: 1px;
+        padding-top: 1px;
+    }
+   p{
+       font-size: 55%;
+       
+       
+   }
+   .texto{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+       align-items: center;
+   }
+
+
+ }
+
+@media screen and (min-width: 320px) {
+    body { 
+        margin-top: 0;
+        height: 100vh;
+        font-size: 80%; 
+    }
+    .forma{
+        margin-top: 1px;
+        padding-top: 1px;
+    }
+   p{
+       font-size: 10px;
+       
+       
+   }
+   .texto{
+    text-align: center;
+    justify-content: center;
+       align-items: center;
+   }
+
+
+ }
+
+@media (min-width: 480px) {
+    .texto p{
+       
+        font-size: 80%;
+        
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+    body { 
+        margin-top: 0;
+        height: 100vh;
+        
+    }
+    .forma{
+        margin-top: 1px;
+        padding-top: 1px;
+    }
+   p{
+    font-size: 100%;
+       
+       
+   }
+   .texto{
+    text-align: center;
+    justify-content: center;
+       align-items: center;
+   }
+    
+}
+@media screen and (min-width: 992px) and (orientation: landscape) {
+    body { 
+        margin-top: 0;
+        height: 100vh;
+        
+    }
+    .forma{
+        margin-top: 1px;
+        padding-top: 1px;
+    }
+   p{
+    font-size: 100%;
+       
+       
+   }
+   .texto{
+    text-align: center;
+    justify-content: center;
+       align-items: center;
+   }
+    
+}
+@media screen and (min-width: 1290px) and (orientation: landscape){
+    body { 
+        margin-top: 0;
+        height: 100vh;
+        
+    }
+    .forma{
+        margin-top: 1px;
+        padding-top: 1px;
+    }
+   p{
+    font-size: 100%;
+       
+       
+   }
+   .texto{
+    text-align: center;
+    justify-content: center;
+       align-items: center;
+   }
+    
+}
